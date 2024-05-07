@@ -1,7 +1,7 @@
-# from playsound import playsound
-# import eel
+from playsound import playsound
+import eel
 
-# @eel.expse
-# # # Play assistant sound
-# def playAssistantSound():
-#     playsound("www\\assets\\audio\\start_sound.mp3")
+@eel.expose
+def playAssistantSound():
+    music_dir = "C:\\Users\\dyord\\OneDrive\\Desktop\\python_projects\\AI_jarvis\\www\\assets\\audio\\start_sound.mp3"
+    playsound(music_dir)
