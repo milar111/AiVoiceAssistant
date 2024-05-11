@@ -1,6 +1,5 @@
 $(document).ready(function () {
     
-
     //Display Message
 eel.expose(DisplayMessage)
 function DisplayMessage(message) {
