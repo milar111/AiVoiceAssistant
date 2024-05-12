@@ -9,7 +9,7 @@ import re
 
 @eel.expose
 def playAssistantSound():
-    music_dir = "C:\\Users\\dyord\\OneDrive\\Desktop\\python_projects\\AI_jarvis\\www\\assets\\audio\\start_sound.mp3"
+    music_dir = "www\\assets\\audio\\start_sound.mp3"
     playsound(music_dir)
 
 def openCommand(query):
